@@ -3,6 +3,7 @@ import './resources/styles.css';
 import Header from './components/header_footer/Header';
 import Featured from './components/featured';
 import VenueInfo from './components/venueInfo';
+import Highlight from './components/Highlight';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Featured />
       <VenueInfo />
+      <Highlight />
     </div>
   );
 }
