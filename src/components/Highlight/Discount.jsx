@@ -41,7 +41,12 @@ class Discount extends Component {
                             <h3>Purchase tickets before December 1st</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iure ex iste animi ratione praesentium non, dolorem accusamus reprehenderit quasi repudiandae voluptate, tempora quam vitae corporis quas inventore incidunt mollitia.</p>
 
-                            <MyButton />
+                            <MyButton 
+                                text="Purchase Tickets"
+                                bck="#ffa800"
+                                color="#ffffff"
+                                link="http://google.com"
+                            />
                         </div>
                     </Slide>
 
